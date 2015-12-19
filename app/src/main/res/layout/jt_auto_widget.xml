@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/carbon_white">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/TextAppearance.Design.Tab"
+        android:text="@string/alert_jt"
+        android:id="@+id/textView"
+        android:allowUndo="false"
+        android:layout_above="@+id/imageButton9"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton"
+        android:background="@drawable/ic_build"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_toStartOf="@+id/imageButton9"
+        android:layout_marginEnd="67dp" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton2"
+        android:layout_marginEnd="72dp"
+        android:background="@drawable/ic_error_outline"
+        android:layout_alignTop="@+id/imageButton9"
+        android:layout_alignParentEnd="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageButton9"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ic_warning" />
+
+</RelativeLayout>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.murraystudios.graham.jtauto.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+
+        android:id="@+id/mainFeatures"
+        android:layout_alignParentStart="false">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emergencySettingsButton"
+            android:background="@drawable/caricon48"
+            android:layout_below="@+id/locationButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/locationButton"
+            android:background="@drawable/findicon48"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/socialButton"
+            android:background="@drawable/peopleicon48"
+            android:layout_alignTop="@+id/locationButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/aptButton"
+            android:background="@drawable/putinsideicon48"
+            android:layout_below="@+id/emergencySettingsButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="15dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactButton"
+            android:background="@drawable/addressbookgreenicon48"
+            android:layout_alignTop="@+id/emergencySettingsButton"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/emergency_settings"
+            android:id="@+id/emergencyTextview"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/emergencySettingsButton"
+            android:layout_toEndOf="@+id/emergencySettingsButton"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/find_us"
+            android:id="@+id/locationTextview"
+            android:textColor="#ffffff"
+            android:layout_centerVertical="true"
+            android:layout_toEndOf="@+id/locationButton"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/social_title"
+            android:id="@+id/socialTextView"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/socialButton"
+            android:layout_toStartOf="@+id/socialButton"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/schedule_apt"
+            android:id="@+id/scheduleTextView"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/emergencySettingsButton"
+            android:layout_toEndOf="@+id/aptButton"
+            android:layout_marginTop="30dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_us"
+            android:id="@+id/contactTextview"
+            android:textColor="#ffffff"
+            android:layout_alignTop="@+id/contactButton"
+            android:layout_toStartOf="@+id/contactButton"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

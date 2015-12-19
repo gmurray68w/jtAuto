@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentEmergency2">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView6"
+            android:text="@string/enter_car_info"
+            style="@style/Base.TextAppearance.AppCompat.Title"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_car_year"
+            android:id="@+id/carYearTextview"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editTextCarYear"
+            android:layout_gravity="center"
+            android:hint="@string/car_year_hint"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter_both"
+            android:id="@+id/textViewMakeModel"
+            android:layout_gravity="center_horizontal"
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textSize="20sp" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:orientation="vertical"
+            android:weightSum="2">
+
+            <Spinner
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerMake"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:layout_marginLeft="15dp" />
+
+            <Spinner
+                android:layout_width="160dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinnerModel"
+                android:layout_weight="1"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginRight="15dp" />
+        </TableRow>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_save"
+            android:id="@+id/button"
+            android:layout_gravity="center_horizontal" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

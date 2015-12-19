@@ -1,0 +1,150 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="layout.FragmentEmergency1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_name"
+        android:id="@+id/textView2"
+        android:layout_gravity="center"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextName"
+        android:layout_gravity="center_horizontal"
+        android:hint="Graham Murray"
+        android:gravity="center"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="100dp"
+        android:text="@string/editTextspace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_phone"
+        android:id="@+id/textView3"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextPhoneNumber"
+        android:layout_gravity="center_horizontal"
+        android:hint="@string/phone_jt_number"
+        android:gravity="center"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/editTextspace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_email"
+        android:id="@+id/textView4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:layout_marginTop="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/editTextEmail"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:hint="grahamm@perfpresence.com"
+        android:gravity="center"
+        android:text="@string/editTextspace" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_location"
+        android:id="@+id/textView5"
+        android:layout_gravity="center_horizontal"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Subhead"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/editTextAddress"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:hint="1843 Leedy Dr"
+        android:gravity="center" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="4"
+            android:layout_marginRight="25dp"
+            android:layout_marginLeft="25dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextCity"
+                android:hint="Chambersburg"
+                android:layout_weight="2"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextState"
+                android:hint="PA"
+                android:layout_weight="1"
+                android:gravity="center" />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editTextZIP"
+                android:hint="17202"
+                android:layout_weight="1"
+                android:gravity="center" />
+        </TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/textView7" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/section_label" />
+    </LinearLayout>
+
+</FrameLayout>

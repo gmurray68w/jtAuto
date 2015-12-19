@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">JT Auto</string>
+    <string name="action_settings">Settings</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="alert_jt">Alert JTs Auto</string>
+    <string name="alert_jt_low">Low Alert</string>
+    <string name="alert_jt_med">Medium Alert</string>
+    <string name="alert_jt_high">High Alert</string>
+    <string name="enter_name">Name</string>
+    <string name="enter_first_last">First, Last</string>
+    <string name="enter_phone">Enter Phone #</string>
+    <string name="enter_email">Email Address</string>
+    <string name="enter_car_info">Car Information</string>
+    <string name="enter_car_year">Car Year</string>
+    <string name="enter_car_make">Car Make</string>
+    <string name="enter_car_model">Model</string>
+    <string name="enter_both">Car Make and Model</string>
+    <string name="button_save">Save</string>
+    <string name="enter_location">Home Address</string>
+    <string name="emergency_text">Emergency</string>
+    <string name="emergency_settings">Emergency Settings</string>
+    <string name="make_call">Call us!</string>
+    <string name="find_us">Location</string>
+    <string name="schedule_apt">Schedule an Apt.</string>
+    <string name="add_us">Add Us!</string>
+    <string name="social_title">Social</string>
+    <string name="emergencyTextview">Emergency!</string>
+    <string name="exclamations">!!!!!!!!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_emergency_tabbed">EmergencyTabbed</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="tab_header_1">Your information</string>
+    <string name="tab_item1">Your Info</string>
+    <string name="tab_header_2">Car Information</string>
+    <string name="tab_header_3">Settings</string>
+    <string name="title_activity_emergency_tabbed2">EmergencyTabbed2</string>
+    <string name="message_option">How you want to alert JT of accident?</string>
+    <string name="explanation_settings">This is where you will configure your options for when you hit the button on your home screen for emergencies only. The first time you use it you will see the process and make sure it works correctly. If you make any changes, you will get another test push.</string>
+    <string name="email_text">Email</string>
+    <string name="sms_text">Text</string>
+    <string name="both_option">Both</string>
+    <string name="accident_saftey">Safety Check?</string>
+    <string name="accident_callback">Receive a comfirmation alert?</string>
+    <string name="alert_notify_eta">Receive an alert and eta when tow truck leaves?</string>
+    <string name="driveable_check">Confirm you\'re vehicle cannot drive?</string>
+    <string name="accept">I understand</string>
+    <string name="car_year_hint">2003</string>
+    <string name="phone_jt_number">240-818-2015</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="editTextspace" />
+
+</resources>
